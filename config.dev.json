@@ -38,7 +38,7 @@
   },
   "nickNameBot": "𓆩𝙀𝙇𝙄𝙏𝙀 𝙀𝙁-𝙋𝙍𝙄𝙈𝙀 ",
   "authorName": "Frank kaumba",
-  "authorFB": "https://www.facebook.com/profile.php?id=61557780285734",
+  "authorFB": "https://www.facebook.com/efkidtrapgamer ",
   "authorEmail": "efkidgamer@gmail.com",
   "prefix": "/",
   "database": {
@@ -137,18 +137,18 @@
     "message_unsend": true,
     "message_reply": true,
     "event": true,
-    "read_receipt": false,
-    "typ": false,
-    "presence": false
+    "read_receipt": true,
+    "typ": true,
+    "presence": true
   },
   "optionsFca": {
     "forceLogin": false,
-    "listenEvents": true,
+    "listenEvents": false,
     "updatePresence": true,
-    "listenTyping": true,
+    "listenTyping": false,
     "logLevel": "error",
-    "selfListen": false,
-    "selfListenEvent": true,
+    "selfListen": true,
+    "selfListenEvent": false,
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
